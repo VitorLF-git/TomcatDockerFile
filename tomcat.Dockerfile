@@ -12,7 +12,7 @@
 # docker run -p 80:8080 tomcat
 # --------------------------------------------------------------------------------
 
-FROM tomcat:8.0-alpine
+FROM tomcat:9.0
 
 # Change from sample.war to your own war file
 ADD sample.war /usr/local/tomcat/webapps/
