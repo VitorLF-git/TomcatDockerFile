@@ -1,7 +1,7 @@
 
 # --------------------RUN THOSE 2 COMMANDS TO START THE SERVER--------------------
-# docker build -t containerTomcat -f tomcat.Dockerfile .
-# docker run -p 80:8080 containerTomcat
+# docker build -t tomcat -f tomcat.Dockerfile .
+# docker run -p 80:8080 tomcat
 # --------------------------------------------------------------------------------
 
 FROM tomcat:8.0-alpine
